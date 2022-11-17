@@ -384,6 +384,7 @@ section {
   justify-content: space-between;
 }
 .skills .skillBox {
+  cursor: pointer;
   padding: 20px;
  width: 250px;
 }
@@ -401,7 +402,12 @@ section {
 }
 
 .skills .skill .svg-images {
-  width: 40%;
+  width: 50%;
+  padding: 12px 0 12px 0;
+}
+
+.skills .skill .svg-image {
+  width: 20%;
   padding: 12px 0 12px 0;
 }
 
