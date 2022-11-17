@@ -375,36 +375,38 @@ section {
 
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+
+.skills .skills-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
+.skills .skillBox {
+  padding: 20px;
+ width: 250px;
 }
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+
+.skills .skill {
+  box-shadow: 2px 2px 10px rgba(107, 107, 107, 0.192);
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  gap: 10px;
+  font-weight: 800;
 }
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
+
+.skills .skill .svg-images {
+  width: 40%;
+  padding: 12px 0 12px 0;
 }
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #716346ff;
-}
+
+
+
 
  /*--------------------------------------------------------------
 # Resume
