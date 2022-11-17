@@ -384,12 +384,13 @@ section {
   justify-content: space-between;
 }
 .skills .skillBox {
-  cursor: pointer;
+  
   padding: 20px;
  width: 250px;
 }
 
 .skills .skill {
+  cursor: pointer;
   box-shadow: 2px 2px 10px rgba(107, 107, 107, 0.192);
   display: flex;
   border-radius: 10px;
@@ -399,8 +400,13 @@ section {
   padding: 20px 0 20px 0;
   gap: 10px;
   font-weight: 800;
+  color:#716346ff;;
 }
-
+.skills .skill:hover {
+color:white;
+background-color: rgba(113, 99, 70, 0.87);
+transition: .3s all ease-in-out;
+}
 .skills .skill .svg-images {
   width: 50%;
   padding: 12px 0 12px 0;
